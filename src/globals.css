@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import 'tailwindcss';
+
+:root {
+  --text: #000000;
+  --background: #fefefe;
+  --primary: #060607;
+  --secondary: #443dff;
+  --accent: #dddbff;
+
+  color: var(--text);
+  background: var(--background);
+}
+
+@theme {
+  --color-defualt: #ffffff;
+  --color-background: #04041b;
+  --color-primary: #2f27ce;
+  --color-secondary: #dddbff;
+  --color-accent: #443dff;
+  --color-background-accent: #060624;
+  --color-card-foreground: #2f2f4a;
+  --color-card-background: #060624;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #ffffff;
+    --background: #101080;
+    --primary: #2f27ce;
+    --secondary: #dddbff;
+    --accent: #443dff;
+
+    color: var(--text);
+    background: var(--background);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
