@@ -3,9 +3,9 @@ import { Link } from '@tanstack/react-router'
 export default function Header() {
   return (
     <header className="w-full flex items-center justify-center py-4 sticky top-0 shadow shadow-b bg-white relative z-100">
-      <nav className="w-full px-4 md:px-0 md:w-[1220px] flex justify-between items-center">
+      <nav className="w-full px-4 md:px-0 md:w-[1220px] flex justify-center md:justify-between items-center">
         <div className="text-xl font-semibold">
-          <Link to="/">MBrella</Link>
+          <Link to="/"><img className='h-10' src="/icons/mbrellaco-logo.svg" alt="" /></Link>
         </div>
 
         <div className='hidden md:block space-x-6'>

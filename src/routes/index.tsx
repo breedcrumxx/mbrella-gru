@@ -28,7 +28,7 @@ function App() {
 
             <button
               className="group relative inline-flex h-12 items-center justify-center bg-neutral-950 px-6 text-white cursor-pointer"
-              onClick={() => window.open("https://www.facebook.com/mbrellacorp", "_blank")}
+              onClick={() => window.open("https://www.facebook.com/mbrella", "_blank")}
             >
               <span className="relative z-10">Tell me your idea</span>
               <div className="relative ml-1 h-5 w-5 overflow-hidden">
@@ -55,13 +55,18 @@ function App() {
           <p className='text-lg mt-4'>We can build you your website with features of your choice. Wether for business needs or personal requirements, we got you covered.</p>
         </div>
         <div className='w-full md:w-1/2 pl-8 pt-8 md:p-0 md:flex md:items-end md:justify-end'>
-          <img className='h-[80%]' src="/assets/sample-1.png" alt="" />
+          <img className='h-[80%] rounded-t-md' src="/assets/sample-1.png" alt="" />
         </div>
       </div>
 
-      <div className='w-full block md:flex bg-neutral-200/30 rounded-lg mt-4'>
-        <div className='w-full md:w-1/2'></div>
-        <div className='w-full md:w-1/2 space-y-4 p-4 md:p-16 md:pl-8'>
+      <div className='w-full flex flex-col md:flex-row bg-neutral-200/30 rounded-lg mt-4'>
+        <div className='w-full order-2 md:order-1 md:w-1/2'>
+          <div className='h-[300px] md:h-[500px] overflow-hidden relative'>
+            <img className='absolute w-1/2 top-10 left-10 z-10' src="/assets/mobile-1.svg" alt="" />
+            <img className='absolute w-1/2 right-0 top-35' src="/assets/mobile-3.svg" alt="" />
+          </div>
+        </div>
+        <div className='w-full order-1 md:order-2 md:w-1/2 space-y-4 p-4 md:p-16 md:pl-8'>
           <p className='text-primary font-semibold scroll-mt-32 mb-4'>We hate limitation.</p>
           <h1 className='text-3xl md:text-4xl leading-[1.2]'>We explore screens and can go mobile</h1>
           <p className='text-lg'>We don't limit you on browser, we could explore screen and make you your very first mobile app.</p>
@@ -74,8 +79,9 @@ function App() {
           <h1 className='text-3xl md:text-4xl leading-[1.2]'>We can dive deep and go low</h1>
           <p className='text-lg'>You need system or embeded level of assistance, we are here for you.</p>
         </div>
-        <div className='w-full md:w-1/2 pl-8 pt-8 md:p-0 md:flex md:items-end md:justify-end'>
-          <img className='h-[80%]' src="/assets/sample-3.png" alt="" />
+        <div className='w-full md:w-1/2 pl-8 pt-8 md:p-0 md:flex md:items-end md:justify-end relative'>
+          <img className='h-[80%] left-0 hidden md:block absolute rounded-t-md' src="/assets/sample-4.png" alt="" />
+          <img className='h-[70%] relative md:absolute rounded-t-md' src="/assets/sample-3.png" alt="" />
         </div>
       </div>
 
@@ -128,9 +134,9 @@ function App() {
                 </div>
               </div>
               <FlipBtn
-                className='w-full bg-black md:bg-white border border-black border-t-0'
-                contentStyle='mix-blend-difference'
-                bgStyle='bg-neutral-950'
+                className='w-full'
+                bgStyle='bg-primary'
+                onClick={() => window.open("https://www.facebook.com/mbrellacorpo", "_blank")}
               >Tell me your idea</FlipBtn>
             </div>
 
@@ -158,7 +164,7 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img className='object-fit' src="/public/maceline.png" alt="" />
+                  <img className='object-fit' src="/beemo.png" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Hennryx S.</h1>
                 <p className='text-sm'>Project Manager</p>
@@ -175,6 +181,7 @@ function App() {
                 className='w-full bg-black md:bg-white border border-black border-t-0'
                 contentStyle='mix-blend-difference'
                 bgStyle='bg-neutral-950'
+                onClick={() => window.open("https://hennryx-portfolio.vercel.app/", "_blank")}
               >Click me</FlipBtn>
             </div>
 
@@ -226,7 +233,7 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img className='object-fit' src="/public/beemo.png" alt="" />
+                  <img className='object-fit' src="marceline.png" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Paul M.</h1>
                 <p className='text-sm'>Associate Developer</p>
