@@ -43,8 +43,8 @@ function App() {
           </div>
         </div>
         <div className='w-full order-1 md:order-2 md:w-1/3 flex justify-center py-10'>
-          <img className='h-full hidden md:block' src="/public/assets/hero.svg" alt="" />
-          <img className='h-full w-full block md:hidden' src="/public/assets/sub-complexity.svg" alt="" />
+          <img className='h-full hidden md:block' src="/assets/hero.svg" alt="" />
+          <img className='h-full w-full block md:hidden' src="/assets/sub-complexity.svg" alt="" />
         </div>
       </div>
 
@@ -96,21 +96,21 @@ function App() {
             <h1 className='font-semibold md:text-medium text-2xl'>Provide your idea</h1>
             <p className='text-lg'>Tell us your story and requirements on how you want it to be. And you can sit back and let the team do the hard work.</p>
             <div className='w-full'>
-              <img className='w-full' src="/public/assets/step1.svg" alt="" />
+              <img className='w-full' src="/assets/step1.svg" alt="" />
             </div>
           </div>
           <div className='border border-b-0 md:border-b md:border-r-0 p-8 space-y-4'>
             <h1 className='font-semibold md:text-medium text-2xl'>We build on top</h1>
             <p className='text-lg'>We take it from here. With our skills, we build on top of your idea and remove the complexity for you.</p>
             <div className='w-full'>
-              <img className='w-full' src="/public/assets/step2.svg" alt="" />
+              <img className='w-full' src="/assets/step2.svg" alt="" />
             </div>
           </div>
           <div className='border p-8 space-y-4'>
             <h1 className='font-semibold md:text-medium text-2xl'>Scale it together</h1>
             <p className='text-lg'>You are the captain of your idea. You want to change something? You call it!</p>
             <div className='w-full'>
-              <img className='w-full' src="/public/assets/step3.svg" alt="" />
+              <img className='w-full' src="/assets/step3.svg" alt="" />
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img className='object-fit' src="/public/jake.webp" alt="" />
+                  <img className='object-fit' src="/jake.webp" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Ivan B.</h1>
                 <p className='text-sm'>Sales and Communication</p>
@@ -188,7 +188,7 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img src="/public/bubblegum-512x512.png" alt="" />
+                  <img src="/bubblegum-512x512.png" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Dan R.</h1>
                 <p className='text-sm'>Full-Stack Developer</p>
@@ -212,7 +212,7 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img className='object-fit' src="/public/gunter.png" alt="" />
+                  <img className='object-fit' src="/gunter.png" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Leonel S.</h1>
                 <p className='text-sm'>Associate Developer</p>

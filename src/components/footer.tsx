@@ -43,7 +43,7 @@ export default function Footer() {
             <h1 className="font-semibold">Socials</h1>
             <div className="space-y-2 text-sm">
               <p><a className="hover:underline hover:opacity-100 hover:text-blue-500 opacity-60" href="https://www.facebook.com/mbrellacorpo" target="_blank">Facebook</a></p>
-              <p><a className="hover:underline hover:opacity-100 hover:text-blue-500 opacity-60" href="/">Tiktok</a></p>
+              <p><a className="hover:underline hover:opacity-100 hover:text-blue-500 opacity-60" href="https://www.tiktok.com/@mbrella.co?_t=ZS-8yohdfd0kNj&_r=1" target="_blank">Tiktok</a></p>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Footer() {
               <h1 className="font-semibold">Socials</h1>
               <div className="space-y-2 text-sm">
                 <p><a className="opacity-80" href="https://www.facebook.com/mbrellacorpo" target="_blank">Facebook</a></p>
-                <p><a className="opacity-80" href="/">Tiktok</a></p>
+                <p><a className="opacity-80" href="https://www.tiktok.com/@mbrella.co?_t=ZS-8yohdfd0kNj&_r=1" target="_blank">Tiktok</a></p>
                 <p className="opacity-80">mbrellaco703@gmail.com</p>
               </div>
             </div>
