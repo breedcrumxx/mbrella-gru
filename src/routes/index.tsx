@@ -12,8 +12,10 @@ function App() {
     <div className="w-full px-4 md:px-32 h-max">
       <div className='min-h-[80vh] w-full flex flex-col md:flex-row'>
         <div className='w-full order-2 md:order-1 md:w-2/3 pt-0 md:pt-24 text-center md:text-left'>
-          <h1 className='text-4xl md:text-6xl leading-[1.2]'>We shade out the <span className='line-through'>complexity</span>, and leave out only <span className='text-primary'>results.</span></h1>
-          <p className='mt-4 text-xl'>Take complexity out for you, build on top of your idea, <br />and scale together.</p>
+          <h1 className='text-4xl md:text-6xl leading-[1.2]'>
+            Shading out the <span className='line-through'>complexity</span>, we leave you with only <span className='text-primary'>results.</span>
+          </h1>
+          <p className='mt-4 text-xl'>We take the complexity out, build on your idea, and scale together.</p>
 
           <div className='space-x-4 mt-8'>
             <button
@@ -51,8 +53,8 @@ function App() {
       <div className='w-full block md:flex bg-neutral-200/30 rounded-lg mt-32'>
         <div className='w-full md:w-1/2 p-4 md:p-16 md:pr-8'>
           <p className='text-primary font-semibold scroll-mt-32 mb-4' id="info">What we do?</p>
-          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We build clean Websites and Web apps that can meet your expectations.</h1>
-          <p className='text-lg mt-4'>We can build you your website with features of your choice. Wether for business needs or personal requirements, we got you covered.</p>
+          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We build clean websites and web apps that exceed your <span className="text-primary">EXPECTATIONS!</span></h1>
+          <p className='text-lg mt-4'>We can create your website with the features you want. Whether it’s for business or personal use, we’ve got you covered.</p>
         </div>
         <div className='w-full md:w-1/2 pl-8 pt-8 md:p-0 md:flex md:items-end md:justify-end'>
           <img className='h-[80%] rounded-t-md' src="/assets/sample-1.png" alt="" />
@@ -67,17 +69,17 @@ function App() {
           </div>
         </div>
         <div className='w-full order-1 md:order-2 md:w-1/2 space-y-4 p-4 md:p-16 md:pl-8'>
-          <p className='text-primary font-semibold scroll-mt-32 mb-4'>We hate limitation.</p>
-          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We explore screens and can go mobile</h1>
-          <p className='text-lg'>We don't limit you on browser, we could explore screen and make you your very first mobile app.</p>
+          <p className='text-primary font-semibold scroll-mt-32 mb-4'>We hate limitations.</p>
+          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We explore every screen, even <span className='text-primary'>MOBILE!</span></h1>
+          <p className='text-lg'>We don't limit you on browser. We can take your vision beyond the desktop and create your very first mobile app.</p>
         </div>
       </div>
 
       <div className='w-full block md:flex bg-neutral-200/30 rounded-lg mt-4'>
         <div className='w-full md:w-1/2 space-y-4 p-4 md:p-16 md:pl-8'>
-          <p className='text-primary font-semibold scroll-mt-32 mb-4'>We go extreme.</p>
-          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We can dive deep and go low</h1>
-          <p className='text-lg'>You need system or embeded level of assistance, we are here for you.</p>
+          <p className='text-primary font-semibold scroll-mt-32 mb-4'>We shade the limits.</p>
+          <h1 className='text-3xl md:text-4xl leading-[1.2]'>We can dive deep and go <span className="text-primary">LOW!</span></h1>
+          <p className='text-lg'>From system-level integrations to embedded solutions, we can make it work.</p>
         </div>
         <div className='w-full md:w-1/2 pl-8 pt-8 md:p-0 md:flex md:items-end md:justify-end relative'>
           <img className='h-[80%] left-0 hidden md:block absolute rounded-t-md' src="/assets/sample-4.png" alt="" />
@@ -87,21 +89,21 @@ function App() {
 
       <div className='pb-32 space-y-8 mt-32'>
         <div className='space-y-4'>
-          <h1 className='text-center text-4xl'>Building your own Idea can be hard</h1>
+          <h1 className='text-center text-4xl'>Building your own idea can be hard</h1>
           <p className='text-center text-lg'>That's why we are here, so you can focus on what matters to you.</p>
         </div>
 
         <div className='w-full grid grid-cols-1 md:grid-cols-3'>
           <div className='border border-b-0 md:border-b md:border-r-0 p-8 space-y-4'>
             <h1 className='font-semibold md:text-medium text-2xl'>Provide your idea</h1>
-            <p className='text-lg'>Tell us your story and requirements on how you want it to be. And you can sit back and let the team do the hard work.</p>
+            <p className='text-lg'>Tell us your story and requirements on how you want it to be. And you can sit back and let the team do the hard work for you.</p>
             <div className='w-full'>
               <img className='w-full' src="/assets/step1.svg" alt="" />
             </div>
           </div>
           <div className='border border-b-0 md:border-b md:border-r-0 p-8 space-y-4'>
             <h1 className='font-semibold md:text-medium text-2xl'>We build on top</h1>
-            <p className='text-lg'>We take it from here. With our skills, we build on top of your idea and remove the complexity for you.</p>
+            <p className='text-lg'>We take it from here. With our skills, we build on top of your idea and take complexity out of your plate.</p>
             <div className='w-full'>
               <img className='w-full' src="/assets/step2.svg" alt="" />
             </div>
@@ -120,7 +122,7 @@ function App() {
         <div className='space-y-2 text-center'>
           <p className='text-primary font-semibold scroll-mt-32 mb-4' id="about">Who we are?</p>
           <h1 className='text-4xl text-center'>And when you don't have an idea, <br />only requirements...</h1>
-          <p>We are a group of creative minds, with same goals of providing solutions for you.</p>
+          <p>We are a group of creative minds, with the same goal of providing solutions for you.</p>
         </div>
         <div className='flex justify-center'>
           <div className='w-max grid grid-cols-1 md:grid-cols-2 mt-8 gap-4'>
@@ -262,8 +264,8 @@ function App() {
       </div>
 
       <div className='text-center my-32 space-y-2'>
-        <h1 className='text-5xl leading-[1.2]'>If this things stress you out.</h1>
-        <p className='text-lg'>Don't worry, we can choose what's best for your needs, and you can just chill.</p>
+        <h1 className='text-5xl leading-[1.2]'>If these things stress you out.</h1>
+        <p className='text-lg'>Don't worry, we can choose what's best for you, and you can just chill.</p>
       </div>
 
     </div>

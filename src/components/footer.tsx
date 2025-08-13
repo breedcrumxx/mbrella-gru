@@ -8,7 +8,8 @@ export default function Footer() {
       <nav className="w-[1220px] border p-8 md:grid grid-cols-5 bg-neutral-950">
         <div className='space-y-4 col-span-3'>
           <h1 className='text-6xl'>Start your idea now!</h1>
-          <p className='text-lg'>We shade out complexity for you.</p>
+          <p className='text-lg'>Shading out the <span className="line-through">complexity</span> for you.</p>
+
 
           <FlipBtn
             className='md:bg-neutral-950 bg-primary border-white md:border text-white'
@@ -74,7 +75,6 @@ export default function Footer() {
               <div className="space-y-2 text-sm">
                 <p><a className="opacity-80" href="https://www.facebook.com/mbrellacorpo" target="_blank">Facebook</a></p>
                 <p><a className="opacity-80" href="https://www.tiktok.com/@mbrella.co?_t=ZS-8yohdfd0kNj&_r=1" target="_blank">Tiktok</a></p>
-                <p className="opacity-80">mbrellaco703@gmail.com</p>
               </div>
             </div>
           </div>
