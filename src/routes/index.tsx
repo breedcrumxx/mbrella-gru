@@ -145,10 +145,34 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
+                  <img src="/bubblegum-512x512.png" alt="" />
+                </div>
+                <h1 className='font-semibold text-lg'>Dan R.</h1>
+                <p className='text-sm'>Founder/Full-Stack Developer</p>
+                <div className='flex gap-4 mt-4'>
+                  <a href="https://www.facebook.com/dan.rosete.568326" target="_blank">
+                    <img className='h-[32px] w-[32px]' src="/icons/facebook.svg" alt="Dan R. facebook" />
+                  </a>
+                  <a href="https://github.com/breedcrumxx" target="_blank">
+                    <img className='h-[32px] w-[32px]' src="/icons/github.svg" alt="Dan R. facebook" />
+                  </a>
+                </div>
+              </div>
+              <FlipBtn
+                className='w-full bg-black md:bg-white border border-black border-t-0'
+                contentStyle='mix-blend-difference'
+                bgStyle='bg-neutral-950'
+                onClick={() => window.open("https://danrosete.vercel.app", "_blank")}
+              >Check me</FlipBtn>
+            </div>
+
+            <div className='text-center'>
+              <div className='p-8 pb-4 flex flex-col items-center border'>
+                <div className='w-[64px] h-auto aspect-square rounded-full'>
                   <img className='object-fit' src="/jake.webp" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Ivan B.</h1>
-                <p className='text-sm'>Sales and Communication</p>
+                <p className='text-sm'>Founder/Sales and Coms.</p>
                 <div className='flex gap-4 mt-4'>
                   <a href="https://www.facebook.com/share/19VxEiyd7P/" target="_blank">
                     <img className='h-[32px] w-[32px]' src="/icons/facebook.svg" alt="Ivan B. facebook" />
@@ -169,7 +193,7 @@ function App() {
                   <img className='object-fit' src="/beemo.png" alt="" />
                 </div>
                 <h1 className='font-semibold text-lg'>Hennryx S.</h1>
-                <p className='text-sm'>Project Manager</p>
+                <p className='text-sm'>Founder/Lead Developer</p>
                 <div className='flex gap-4 mt-4'>
                   <a href="https://www.facebook.com/jhiro.deguzman.988/" target="_blank">
                     <img className='h-[32px] w-[32px]' src="/icons/facebook.svg" alt="Hennryx S. facebook" />
@@ -190,16 +214,16 @@ function App() {
             <div className='text-center'>
               <div className='p-8 pb-4 flex flex-col items-center border'>
                 <div className='w-[64px] h-auto aspect-square rounded-full'>
-                  <img src="/bubblegum-512x512.png" alt="" />
+                  <img src="/ice-king.png" alt="" />
                 </div>
-                <h1 className='font-semibold text-lg'>Dan R.</h1>
+                <h1 className='font-semibold text-lg'>Homer V.</h1>
                 <p className='text-sm'>Full-Stack Developer</p>
                 <div className='flex gap-4 mt-4'>
-                  <a href="https://www.facebook.com/dan.rosete.568326" target="_blank">
-                    <img className='h-[32px] w-[32px]' src="/icons/facebook.svg" alt="Dan R. facebook" />
+                  <a href="https://www.facebook.com/WeLoveOmiee" target="_blank">
+                    <img className='h-[32px] w-[32px]' src="/icons/facebook.svg" alt="Homer V. facebook" />
                   </a>
-                  <a href="https://github.com/breedcrumxx" target="_blank">
-                    <img className='h-[32px] w-[32px]' src="/icons/github.svg" alt="Dan R. facebook" />
+                  <a href="https://github.com/xomie" target="_blank">
+                    <img className='h-[32px] w-[32px]' src="/icons/github.svg" alt="Homer V. github" />
                   </a>
                 </div>
               </div>
@@ -207,7 +231,7 @@ function App() {
                 className='w-full bg-black md:bg-white border border-black border-t-0'
                 contentStyle='mix-blend-difference'
                 bgStyle='bg-neutral-950'
-                onClick={() => window.open("https://danrosete.vercel.app", "_blank")}
+                onClick={() => window.open("https://portfolio-jj7p.onrender.com/", "_blank")}
               >Check me</FlipBtn>
             </div>
 
